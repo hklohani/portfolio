@@ -1,9 +1,10 @@
 import self from '../img/self.png';
+import chatgpt_project from '../img/chatgpt_project.png';
 import { colors } from '../colors/mainGradient';
 
 export const info = {
-  firstName: 'Andy',
-  lastName: 'Luo',
+  firstName: 'Himanshu',
+  lastName: 'Kumar',
   initials: 'AL', // the example uses first and last, but feel free to use three or more if you like.
   position: 'a Full Stack Developer',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
@@ -12,16 +13,16 @@ export const info = {
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: '🇨🇦',
-      text: 'based in the Toronto, Canada',
+      emoji: '🇮🇳',
+      text: 'based in the Gujrat, India',
     },
     {
       emoji: '💻',
-      text: 'Full Stack Developer at commonsku',
+      text: 'Full Stack Developer at Trinity unicepts PVT LTD',
     },
     {
       emoji: '📧',
-      text: 'andy8647lgc@gmail.com',
+      text: 'hklohani@outlook.com',
     },
   ],
   socials: [
@@ -36,95 +37,68 @@ export const info = {
       label: 'instagram',
     },
     {
-      link: 'https://github.com/Andy8647',
+      link: 'https://github.com/hklohani',
       icon: 'fa fa-github',
       label: 'github',
     },
     {
-      link: 'https://www.linkedin.com/in/gancheng-luo-andy/',
+      link: 'https://www.linkedin.com/in/hklohani',
       icon: 'fa fa-linkedin',
       label: 'linkedin',
     },
-    {
-      link: 'https://twitter.com/Andy8647L',
-      icon: 'fa fa-twitter',
-      label: 'twitter',
-    },
+    // {
+    //   link: 'https://twitter.com/Andy8647L',
+    //   icon: 'fa fa-twitter',
+    //   label: 'twitter',
+    // },
   ],
-  bio: "Hello! I'm Gancheng (Andy) Luo. I'm a Full Stack Developer. I studied CompSci at UofT, I enjoy building web applications and learning new technologies. I'm currently working at commonsku as a Full Stack Developer. I'm also a freelance photographer. I love to travel and explore new places. I'm currently based in Toronto, Canada.",
+  bio: "Hello! I'm Himanshu Kumar. I'm a Full Stack Developer. I enjoy building web applications and learning new technologies. I'm currently working at Trinity Unicepts as a Full Stack Developer. I'm also a freelance web developer. I love to and explore new Technology. I'm currently based in Gujrat, India.",
   skills: {
-    // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
-    // but the structure should be the same, an array of strings and the key should be one word, no spaces.
-    languages: ['TypeScript', 'JavaScript', 'Java', 'PHP', 'Python', 'HTML/CSS'],
-    frameworks: [
+    Languages: ['JavaScript', 'TypeScript', 'Python', 'PHP', 'HTML/CSS'],
+    Frameworks: [
       'React',
+      'NextJS',
       'Redux',
-      'Material UI',
-      'Vue',
+      'Redux toolkit',
       'Express',
-      'NestJS',
-      'Spring Boot',
-      'Bootstrap/jQuery',
-      'Zend',
-      'Django',
+      'Laravel',
+      'Bootstrap',
+      'Ant design',
+      'Material UI',
+      'Tailwind CSS',
     ],
-    databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', 'TypeORM'],
-    cloudServices: ['AWS S3', 'AWS EC2', 'AWS SNS', 'Google Analytics', 'Heroku', 'Netlify'],
-    tools: [
+    ['Databases']: ['MySQl', 'MongoDB'],
+    ['Cloud Services']: ['AWS S3', 'AWS EC2', 'Google Analytics', 'Heroku', 'Netlify'],
+    ['Tools']: [
       'Git',
       'Postman',
       'Docker',
       'Swagger',
-      'Elasticsearch',
       'npm',
       'yarn',
-      'Maven',
-      'Jenkins',
-      'Jira',
-      'Confluence',
       'Bitbucket',
+      'Github',
+      'Gitlab',
+      'VS Code',
     ],
+    ['Web Servers']: ['Apache2', 'Nginx'],
   },
   hobbies: [
     {
-      label: 'Photography',
-      emoji: '📷',
-    },
-    {
-      label: 'Video Games',
-      emoji: '🎮',
-    },
-    {
-      label: 'Guitar',
-      emoji: '🎸',
-    },
-    {
-      label: 'Anime',
-      emoji: '🎞',
+      label: 'Learning New Things',
+      emoji: '📙',
     },
     {
       label: 'Cooking',
       emoji: '🍳',
     },
-    {
-      label: 'Traveling',
-      emoji: '✈️',
-    },
-    {
-      label: 'Fishing',
-      emoji: '🎣',
-    },
-    // Same as above, change the emojis to match / relate to your hobbies or interests.
-    // You can also remove the emojis if you'd like, I just think they look cute :P
   ],
   portfolio: [
-    // This is where your portfolio projects will be detailed
-    //   for the null ones, the button will not show up
     {
-      title: 'CryptoGoGo - Online Cryptocurrency Community and Trading platform',
-      live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      title: 'Search in document',
+      live: 'https://tattvam.unicepts.in/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/Andy8647/CryptoGoGo', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.ibb.co/6BsWs6f/01.jpg',
+      image: chatgpt_project,
     },
     {
       title: 'Dynrank.js - High-performance dynamic bar chart visualization library',
