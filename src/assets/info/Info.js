@@ -97,14 +97,8 @@ export const info = {
     {
       title: 'Search in document',
       live: 'https://tattvam.unicepts.in/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/Andy8647/CryptoGoGo', // this should be a link to the **repository** of the project, where the code is hosted.
+      source: 'https://github.com/hklohani/chatgpt-chatboat', // this should be a link to the **repository** of the project, where the code is hosted.
       image: chatgpt_project,
-    },
-    {
-      title: 'Dynrank.js - High-performance dynamic bar chart visualization library',
-      live: null,
-      source: 'https://github.com/Andy8647/dynrank',
-      image: 'https://i.ibb.co/HFkMKtH/02.jpg',
     },
   ],
 };
